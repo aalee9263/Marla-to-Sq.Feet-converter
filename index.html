@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Marla to Sq.Feet Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 style="letter-spacing: 5px; line-height: 40px">
+      Marla to Sq.Feet Converter
+    </h2>
+      <div class="converter">
+        <form class="container">
+          <label for="marla">Marla </label>
+          <input type="number" id="marla" oninput="marlaToFt()" />
+        </form>
+        <form class="container">
+          <label for="Feet">Feet </label>
+          <input type="number" id="Feet" oninput="ftToMarla()" />
+        </form>
+      </div>
+    <script src="./converter.js"></script>
+  </body>
+</html>
