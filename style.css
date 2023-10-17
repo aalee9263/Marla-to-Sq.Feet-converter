@@ -18,24 +18,27 @@ body {
 }
 .converter {
   width: 420px;
+  height: 420px;
   margin: 0 auto;
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 45px;
   border-radius: 20px;
   background: linear-gradient(45deg, #0a0a0a, #3a4452);
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
-  color: #ffffffdc;
+  color: rgb(125, 111, 111);
   font-size: 22px;
 }
 label {
   margin: 16px;
 }
 .container {
-  margin: 10px;
+  display: flex;
+  
 }
 input {
-  width: 90%;
+  width: 250px;
   border: 1px solid #717377;
   box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
   border-radius: 10px;

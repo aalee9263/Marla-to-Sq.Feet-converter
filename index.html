@@ -5,18 +5,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h2 style="letter-spacing: 5px; line-height: 40px">
-      Marla to Sq.Feet Converter
-    </h2>
       <div class="converter">
-        <form class="container">
-          <label for="marla">Marla </label>
+        <h2 style="color: rgb(173, 167, 167); text-align: center; letter-spacing: 6px; font-size: 25px;">
+          AREA CONVERTER
+        </h2>
+        <section class="container">
           <input type="number" id="marla" oninput="marlaToFt()" />
-        </form>
-        <form class="container">
-          <label for="feet">Feet </label>
+          <label for="marla" >Marla</label>
+        </section>
+        <section class="container">
           <input type="number" id="feet" oninput="ftToMarla()" />
-        </form>
+          <label for="feet">Feet </label>
+        </section>
       </div>
     <script src="./converter.js"></script>
   </body>
