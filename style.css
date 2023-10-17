@@ -50,7 +50,3 @@ input {
   cursor: pointer;
   color: #ffffff;
 }
-.formula {
-  display: flex;
-  flex-direction: row;
-}
